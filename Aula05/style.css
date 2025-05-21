@@ -5,43 +5,42 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: #f0debd;
     color: #333;
     height: 100vh;
 }
 
 header {
-    background-image: linear-gradient(rgb(252, 247, 189),rgb(119, 91, 13)) ;
-    color: white;
+    background-color: #f0debd;
     width: 100vw;
     text-align: center;
     width: 100vw;
     
 }
 
-header h1 {
-    padding: 20px;
+.logo {
+    width: 200px;
+    height: auto;
 }
 
 
 header nav {
-    background-image: linear-gradient(grey,rgb(27, 24, 24)) ;
-    background-color: #444343;
+    background-color: #3b200f;
     padding: 10px;
 }
 header nav a {
     text-decoration: none;
     font-size: larger;
-    color: inherit;
+    color: #f0debd;
     margin: 0 10px;
 }
 
 .caixa {
-    border: 2px dotted black;
+    border: 2px dotted #3b200f;
     margin: 20px auto;
     padding: 20px;
     max-width: 600px;
-    background-color: #f0f0f0;
+    background-color: #f0debd;
 }
 
 .caixa h2 {
@@ -56,33 +55,36 @@ header nav a {
     margin-left: 20px;
 }
 
+
+
 .flex-container {
-    background-color: white;
+    background-color: #f0debd;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 }
 
 .item {
-    background-image: linear-gradient(20deg,#5d4191,#963dca);
+    background-color: #ecd5a9;
     margin: 10px;
-    padding: 30px;
+    padding: 10px;
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.200);
-    color: white;
-    width: 200px;
-    height: 200px;
+    color: #3b200f;
+    width: 260px;
+    height: 300px;
     transition: background-image 0.3s;
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.100);
 }
 
 .item:hover {
-    background-image: linear-gradient(20deg,#c5ad22, #ceb41f);
+    background-image: linear-gradient(20deg,#ccbc9f, #f0debd);
 }
 
 .imagem {
-    width: 200px;
+    width: 260px;
     height: auto;
     border-radius: 2px;
 }
@@ -94,16 +96,14 @@ header nav a {
 
 .item p {
     font-size: 15px;
-    color: #ddd;
-    margin: 10px;
+    color: #3b200f;
 }
 
 footer {
-    background-color: #222;
+    box-sizing: border-box;
+    background-color: #3b200f;
     color: white;
     text-align: center;
     width: 100vw;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
 }
