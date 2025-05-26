@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&family=Young+Serif&display=swap');
 
 * {
     margin: 0;
@@ -27,6 +30,19 @@ body {
     padding: 40px;
     gap: 30px;
     color: hsl(0, 0%, 95%);
+    height: 300px;
+}
+
+.card p {
+    font-family: 'Lexend Deca';
+    font-size: 12px;
+}
+
+.card h1 {
+    font-family: 'Big Shoulders';
+    font-weight: 400 ;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 #card1 {
@@ -51,6 +67,7 @@ section>p {
     padding: 10px 20px;
     border-radius: 20px;
     border-style: none;
+    cursor: pointer;
 }
 
 #btn1 {
@@ -77,3 +94,4 @@ img {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
