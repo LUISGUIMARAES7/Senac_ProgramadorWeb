@@ -25,25 +25,25 @@
 
 
 
-let opcao = Number(prompt("Conversão:\n\n1 - centímetros\n2 - milímetros\n3 - quilômetro\n4 - polegadas"));
+let opcao = Number(prompt("Conversão:\n\n1 - Centímetros\n2 - Milímetros\n3 - Quilômetros\n4 - Polegadas"));
 let metro = Number(prompt("Digite um valor em metros: "))
 let conv = 0;
 switch(opcao) {
     case 1:
-        conv = metro * 100
-        alert(`${metro}m = ${conv}cm`)
+        conv = metro * 100;
+        alert(`${metro}m = ${conv}cm`);
         break;
     case 2:
-        conv = metro * 1000
-        alert(`${metro}m = ${conv}mm`)
+        conv = metro * 1000;
+        alert(`${metro}m = ${conv}mm`);
         break;
     case 3:
-        conv = metro * 
-        alert(`${metro}m = ${conv}km`)
+        conv = metro / 1000;
+        alert(`${metro}m = ${conv}km`);
         break;
     case 4:
-        conv = metro * 100
-        alert(`${metro}m = ${conv}cm`)
+        conv = metro / 0.0254;
+        alert(`${metro}m = ${conv.toFixed(2)}"`);
         break;
     default:
         break;
