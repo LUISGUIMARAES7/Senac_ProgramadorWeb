@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro de Livros</h1>
+
+    <form id="book-form">
+        <input type="text" id="titulo" placeholder="Título do livro" required>
+        <input type="text" id="autor" placeholder="Nome do autor" required>
+        <input type="number" id="ano" placeholder="Ano de publicação" required>
+        <input type="text" id="editora" placeholder="Editora" required>
+        <button type="submit" onclick="adicionarLivro()">Adicionar Livro</button>
+    </form>
+
+    <h2>Livros Cadastrados</h2>
+    <ul id="lista-livros"></ul>
+
+    <h2>Remover Livro</h2>
+    <input type="text" id="remover-titulo" placeholder="Título do livro">
+    <button onclick="removerLivro()">Remover</button>
+    <script src="index.js"></script>
+</body>
+</html>
