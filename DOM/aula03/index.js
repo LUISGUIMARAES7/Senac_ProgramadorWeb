@@ -1,6 +1,6 @@
 const addButton = document.getElementById('add-button');
 
-addButton.addEventListener('click', function (ev){
+addButton.addEventListener('click', function (ev) {
     const inputConvidado = document.getElementById('input-convidado');
     const convidado = inputConvidado.value;
 
@@ -8,7 +8,7 @@ addButton.addEventListener('click', function (ev){
         alert("Campo obrigatório!");
         return;
     }
-    
+
 
     const listaConvidados = document.getElementById('lista-convidados');
 
@@ -20,3 +20,28 @@ addButton.addEventListener('click', function (ev){
     inputConvidado.value = '';
 
 })
+
+ 
+const inputConvidado = document.getElementById('input-convidado');
+
+inputConvidado.addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') {
+        const inputConvidado = document.getElementById('input-convidado');
+        const convidado = inputConvidado.value;
+
+        if (inputConvidado.value.trim() === "") {
+            alert("Campo obrigatório!");
+            return;
+        }
+
+
+        const listaConvidados = document.getElementById('lista-convidados');
+
+        const li = document.createElement('li');
+        li.innerText = convidado;
+
+        listaConvidados.appendChild(li);
+
+        inputConvidado.value = '';
+    }
+});

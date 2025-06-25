@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;     
+    align-items: center;         
+    height: 100vh;               
+    background-color: #f2f2f2;   
+    gap: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
+    align-items: center;            
+    background-color: lightgrey;  
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+}
+
+input {
+    padding: 4px;
+}
+
+li {
+    margin-left: 40px;
+}
+
+button {
+    padding: 10px;
+}
