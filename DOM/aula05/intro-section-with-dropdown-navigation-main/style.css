@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Epilogue';
+}
+
+
+
+#SectionHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+#logoSnap {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+nav {
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+}
+
+.EstiloBtn {
+    border: 1px solid hsl(0, 0%, 41%);
+    border-radius: 5px;
+    padding: 8px;    
+}
+
+#nav2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#corpo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 1100px;
+    margin: auto;
+}
+
+.main-image {
+    height: 800px;
+    width: auto;
+}
+
+#card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
