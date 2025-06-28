@@ -1,0 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#img-perfil {
+    border-radius: 50%;
+    width: 200px;
+}

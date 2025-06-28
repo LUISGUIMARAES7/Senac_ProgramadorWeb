@@ -114,6 +114,7 @@ h2 {
     padding:16px;
     border-radius: 10px;
     cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 #btnLearnMore:hover {
@@ -130,7 +131,8 @@ h2 {
     cursor: pointer;
     position: relative; 
     bottom: -100px;
-    left: 10px; /
+    left: 10px;
+    transition: background 0.3s ease;
 }
 
 #switchBtn:hover {
@@ -147,6 +149,10 @@ h2 {
 .is-dark {
     background-color: hsla(0, 0%, 8%, 0.87) ;
     color: hsl(0, 0%, 98%);
+}
+
+.is-dark #logoSnap {
+    filter: brightness(0) invert(1);
 }
 
 .a-light {
@@ -168,7 +174,6 @@ h2 {
     position: absolute;
     top: 60px;
     z-index: 1000;
-    
   }
 
   .dropdown:hover .dropdown-menu{
